@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import createReactClas from 'create-react-class'
+import createReactClass from 'create-react-class'
 
 import Mixin from './Mixin';
 
