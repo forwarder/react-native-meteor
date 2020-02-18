@@ -55,6 +55,6 @@ export default class MeteorListView extends Component {
     const { items } = this.state;
     const { listViewRef, ...props } = this.props;
 
-    return <ListView {...props} ref={listViewRef} data={items} keyExtractor={item => item._id} />;
+    return <FlatList {...props} ref={listViewRef} data={items} keyExtractor={item => item._id} />;
   }
 }
